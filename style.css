@@ -1,0 +1,30 @@
+body { 
+  background-color: #000 !important; 
+}
+.reveal h1 {
+  background-color: rgba(0, 0, 0, 0.4);
+
+  padding-bottom: 1rem;
+  padding-top: 0rem;
+
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.reveal section:first-of-type {
+  background: black;
+}
+.reveal h1, .reveal h2, .reveal h3 {
+  text-transform: none;
+}
+.reveal h3 {
+  color: #555;
+}
+.reveal .controls .enabled {
+  visibility: hidden;
+}
+.reveal .progress span {
+  background: white;
+}
+html.top section.present {
+  top: 0px !important;
+}
