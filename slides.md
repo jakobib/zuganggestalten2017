@@ -192,3 +192,95 @@ Kein Standard ist frei von Interessen. Ein gutes Rezept zum Scheitern ist es
 daher so zu tun als seien Daten eine rein technische Angelegenheit ohne soziale
 Implikationen und Konflikte.
 </div>
+
+# Bildlizenzen 1/3
+
+-   [Paul Otlet à son
+    bureau](https://commons.wikimedia.org/wiki/File:Paul_Otlet_%C3%A0_son_bureau.jpg),
+    PD
+-   [Eekiv](https://commons.wikimedia.org/wiki/User:Eekiv), [Art
+    Anarchy](https://commons.wikimedia.org/wiki/File:Art_Anarchy.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [DrOONeil](https://commons.wikimedia.org/wiki/User:DrOONeil), [FMRI
+    Brain
+    Scan](https://commons.wikimedia.org/wiki/File:FMRI_Brain_Scan.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Soban](https://commons.wikimedia.org/wiki/User:Soban), [Locked Door
+    of
+    Tajjar](https://commons.wikimedia.org/wiki/File:Locked_Door_of_Tajjar.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Wing-Chi Poon](https://commons.wikimedia.org/wiki/User:Wingchi),
+    [Warning - Area Closed - Dangerous
+    Cliffs](https://commons.wikimedia.org/wiki/File:Warning_-_Area_Closed_-_Dangerous_Cliffs.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Samooer](https://commons.wikimedia.org/wiki/User:Samooer), [Broken
+    Wheel](https://commons.wikimedia.org/wiki/File:Broken_Wheel.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Gurch](https://en.wikipedia.org/wiki/User:Gurch) at [English
+    Wikipedia](https://en.wikipedia.org/wiki/),
+    [Category-diagram](https://commons.wikimedia.org/wiki/File:Category-diagram.png),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+
+# Bildlizenzen 2/3
+
+-   [PdDemeter](https://commons.wikimedia.org/wiki/User:PdDemeter),
+    [Blank-document](https://commons.wikimedia.org/wiki/File:Blank-document.svg),
+    [CC BY-SA
+    2.5](https://creativecommons.org/licenses/by-sa/2.5/legalcode)
+-   [Messier 12 Hubble
+    WikiSky](https://commons.wikimedia.org/wiki/File:Messier_12_Hubble_WikiSky.jpg),
+    PD
+-   [Voynich
+    Manuscript (164)](https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_%28164%29.jpg),
+    PD
+-   [Chris Updegrave](http://www.flickr.com/people/cupdegrave/),
+    [Salmonberry River and POTB
+    line](https://commons.wikimedia.org/wiki/File:Salmonberry_River_and_POTB_line.jpg),
+    [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode)
+-   [Lawrence Lansing](http://blog.fuzzynerd.com/), [Princess juliana
+    international airport
+    approach](https://commons.wikimedia.org/wiki/File:Princess_juliana_international_airport_approach.jpg),
+    [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode)
+-   [Trapmoth](/wiki/User_talk:Trapmoth),
+    [Thompson-kleene-star](https://commons.wikimedia.org/wiki/File:Thompson-kleene-star.svg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Larry](https://commons.wikimedia.org/wiki/File:Larry.jpg), PD
+
+# Bildlizenzen 3/3
+
+-   [en:User:Dreftymac](https://en.wikipedia.org/wiki/User:Dreftymac),
+    [XML](https://commons.wikimedia.org/wiki/File:XML.svg), [CC BY-SA
+    2.5](https://creativecommons.org/licenses/by-sa/2.5/legalcode)
+-   אני יצרתי, [Rocks blocking a
+    road](https://commons.wikimedia.org/wiki/File:Rocks_blocking_a_road.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Bullenwächter](https://commons.wikimedia.org/wiki/User:Bullenw%C3%A4chter),
+    [Ausgrabung Harburger-Schloßstraße
+    Profil](https://commons.wikimedia.org/wiki/File:Ausgrabung_Harburger-Schloßstraße_Profil.jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Man On
+    Mission](https://commons.wikimedia.org/wiki/User:Man_On_Mission),
+    [Japanese Three Wise
+    Monkeys](https://commons.wikimedia.org/wiki/File:Japanese_Three_Wise_Monkeys.JPG),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Steindy](https://commons.wikimedia.org/wiki/User:Steindy), [Massimo
+    Busacca, Referee,
+    Switzerland (10)](https://commons.wikimedia.org/wiki/File:Massimo_Busacca,_Referee,_Switzerland_(10).jpg),
+    [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
+-   [Peretz Partensky](http://www.flickr.com/people/68877611@N00) from
+    San Francisco, USA, [This was a timely
+    capture (3926001309)](https://commons.wikimedia.org/wiki/File:This_was_a_timely_capture_(3926001309).jpg),
+    [CC BY-SA
+    2.0](https://creativecommons.org/licenses/by-sa/2.0/legalcode)
+
