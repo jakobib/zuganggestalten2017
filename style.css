@@ -10,9 +10,6 @@ body {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-.reveal section:first-of-type {
-  background: black;
-}
 .reveal h1, .reveal h2, .reveal h3 {
   text-transform: none;
 }
