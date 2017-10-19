@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Jakob Voß, VZG">
+  <title>Anleitung für schlechte Standards</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js/css/print/pdf.css' : 'http://lab.hakim.se/reveal-js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Anleitung für schlechte Standards</h1>
+  <h2 class="author">Jakob Voß, VZG</h2>
+  <h3 class="date">19.10.2017 – ZUGANG GESTALTEN!</h3>
+</section>
+
+<section id="those-were-the-data-my-friend" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/b/bc/Paul_Otlet_%C3%A0_son_bureau.jpg">
+<h1>Those were the data my friend…</h1>
+<aside class="notes">
+<p>Zunächst ein Hinweis: ich habe nicht nur theoretisch sondern auch praktisch viel mit Metadaten aus verschiedenen Quellen und in verschiedenen Formen zu tun. Die Qualität dieser Daten lässt zuweilen etwas zu wünschen übrig. Die folgenden Hinweise für schlechte Standards, also Anti-Patterns die eigentlich vermieden werden sollten, basieren daher zu Größten Teil auf Beispielen aus der Praxis.</p>
+</aside>
+</section>
+<section id="ignoriere-alle-regeln" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Art_Anarchy.jpg/1200px-Art_Anarchy.jpg">
+<h1>Ignoriere alle Regeln!</h1>
+<aside class="notes">
+<p>Die erste Regel lautet alle Regel zu ignorieren. Wenn alle ihre Daten so gestalten und interpretieren wie es ihnen gerade in den Sinn kommt, muss sich niemand an Standards halten. Das mag übertrieben erscheinen, aber in der Praxis bekommen wir beispielsweise regelmäßig irgendwelche Excel-Tabellen und müssen selbst daraus schlau werden.</p>
+</aside>
+</section>
+<section id="lass-es-bei-ungeschriebenen-gesetzen" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/9/96/FMRI_Brain_Scan.jpg">
+<h1>Lass’ es bei ungeschriebenen Gesetzen!</h1>
+<aside class="notes">
+<p>Das Sache ist aber so dass Daten <em>immer</em> irgendwelchen Regeln folgend. Die Regeln sind nur meist nirgends festgelegt sondern lassen sich beispielsweise als haben-wir-schon-immer-so-gemacht zusammenfassen. Belassen Sie es als für schlechte Standards bei implizite Annahmen.</p>
+</aside>
+</section>
+<section id="halte-deine-regeln-geheim" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Locked_Door_of_Tajjar.jpg/1200px-Locked_Door_of_Tajjar.jpg">
+<h1>Halte deine Regeln geheim!</h1>
+<aside class="notes">
+<p>Wenn es sich doch nicht vermeiden lässt irgendwelche Standards festzulegen, behalte sie für den internen Gebrauch. Daten austauschen ist ja ok aber die Regeln denen die Standard gehorchen sollten geheim bleiben.</p>
+</aside>
+</section>
+<section id="standards-sollten-unzugänglich-sein" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Warning_-_Area_Closed_-_Dangerous_Cliffs.jpg/1200px-Warning_-_Area_Closed_-_Dangerous_Cliffs.jpg">
+<h1>Standards sollten unzugänglich sein!</h1>
+<aside class="notes">
+<p>Stell’ sicher, dass deine Regeln möglichst schwer einsehbar sind, also nicht frei zugänglich. Ein aktuelles Beispiel ist vor wenigen Tagen entdeckte Sicherheitslücke im WLAN-Standard, die daher rührt, dass der exakte Standard nicht kostenlos verfügbar war.</p>
+</aside>
+</section>
+<section id="erfinde-das-rad-von-grund-auf-neu" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Broken_Wheel.jpg/1200px-Broken_Wheel.jpg">
+<h1>Erfinde das Rad von Grund auf neu!</h1>
+<aside class="notes">
+<p>Vielleicht gibt es ja schon einen Standard für Ihren Anwendungsfall. Erfinde lieber das Rad neu und ignoriere ähnliche Standards. Gute Standards bauen aufeinander auf, also sollten schlechte Standards jedes Details selbst regeln.</p>
+</aside>
+</section>
+<section id="plane-möglichst-umfangreich" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Category-diagram.png/1200px-Category-diagram.png">
+<h1>Plane möglichst umfangreich!</h1>
+<aside class="notes">
+<p>Also plane möglichst umfangreich. Ein schlechter Standard sollte die gesamte Welt erklären und alle möglichen Spezialfälle abdecken. Am Besten sie konzentrieren sich gleich auf die Spezial- und Sonderfälle!</p>
+</aside>
+</section>
+<section id="beschränke-dich-aufs-allgemeine" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Blank-document.svg/262px-Blank-document.svg.png" data-background-size="contain">
+<h1>Beschränke dich aufs Allgemeine!</h1>
+<aside class="notes">
+<p>Versuchen Sie jedoch nicht zu sehr ins Detail zu gehen. Ein allgemeiner Standard reicht aus. Lassen sie viele Freiheistgrade und Möglichkeiten offen, so dass sie jeder sie auf seine eigene Weise unterschiedlich ausgestalten kann. Schöne Beispiel sind das Dublin Core Metadata Element Set oder die DIN-A4-Norm: an sich keine schlechten Standards aber für sich alleine meist nicht ausreichend. Das Daten nach ihrer Form statt ihrem Inhalt standardisiert werden ist übrigens eher die Regel.</p>
+</aside>
+</section>
+<section id="jedem-einzelfall-sein-standard" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Messier_12_Hubble_WikiSky.jpg/600px-Messier_12_Hubble_WikiSky.jpg">
+<h1>Jedem Einzelfall sein Standard</h1>
+<aside class="notes">
+<p>Das Andere extrem sind eine Vielzahl von Standard für jeden Einzelfall.</p>
+</aside>
+</section>
+<section id="vermeide-gute-beispiele" class="slide level1">
+<h1>Vermeide gute Beispiele!</h1>
+<aside class="notes">
+<p>Hierfür ist mir auch kein gutes Beispiel als Hintergrundbild eingefallen. Am Besten Sie lassen für schlechte Standards Beispiele ganz weg. Diese Regel ist auch nicht schwer einzuhalten, da wirklich gute Beispiele tatsächlich aufwändig sind.</p>
+</aside>
+</section>
+<section id="benutze-kryptische-sprache" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Voynich_Manuscript_%28164%29.jpg/1200px-Voynich_Manuscript_%28164%29.jpg">
+<h1>Benutze kryptische Sprache!</h1>
+<aside class="notes">
+<p>Zugegeben sind Standards oft nicht wirklich leicht und flüssig lesbar, da sie viel mit Gesetzestexten und -Kommentaren gemeinsam haben. Es gibt aber immer Spielraum nach oben, es unnötig noch unverständlicher zu machen.</p>
+</aside>
+</section>
+<section id="bleibe-unklar-bezüglich-relevanter-teile" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Salmonberry_River_and_POTB_line.jpg/800px-Salmonberry_River_and_POTB_line.jpg">
+<h1>Bleibe unklar bezüglich relevanter Teile!</h1>
+<aside class="notes">
+<p>Jeder Datenstandard lässt einigen Spielraum, so dass die gleichen Inhalte unterschiedlich kodiert werden können. Ein typisches Beispiel sind zusätzliche Leerzeichen. Ein schlechter Standard sollte nicht preisgeben, wann solche Abweichungen relevant sind und wann sie ignoriert werden können.</p>
+</aside>
+</section>
+<section id="fördere-kreative-lösungen" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Princess_juliana_international_airport_approach.jpg/800px-Princess_juliana_international_airport_approach.jpg">
+<h1>Fördere kreative Lösungen!</h1>
+<aside class="notes">
+<p>Jeder Standard lässt sich uminterpretieren und verbiegen. Ein schlechter Standard sollte diese Praxis fördern. Ein Beispiel aus der Praxis über das ich neulich gestolpert bin stammt aus bibliographischen Metadaten in denen ein Feld für den Titel einer Publikation vorhanden war. Irgendwann fiel mir auf, dass machen Titel komische Sonderzeichen enthalten. Die Lösung war folgender Hack: Wenn der Titel nicht Englisch ist, dann steht im Titel-Feld nicht der tatsächliche Titel sondern der übersetze Titel in eckigen Klammern. Darauf muss man erstmal kommen!</p>
+</aside>
+</section>
+<section id="vermeide-formale-sprachen" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thompson-kleene-star.svg/755px-Thompson-kleene-star.svg.png">
+<h1>Vermeide formale Sprachen!</h1>
+<aside class="notes">
+<p>Allgemein sollte schon klar geworden sein, dass schlechte Standards sich nicht zu sehr festlegen sollten. Das beste Mittel dafür ist ungenaue Sprache. Das Gegenteil davon sind formale Sprachen wie reguläre Ausdrücke, Schemata, Datentypen, Ontologien etc. Diese Sprachen dienen der Exaktheit und helfen Computern besser mit den Daten umzugehen. Sie erfordern allerdings mathematische Stringenz.</p>
+</aside>
+</section>
+<section id="bleibe-abstrakt" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/6/62/Larry.jpg" data-background-size="contain">
+<h1>Bleibe abstrakt!</h1>
+<aside class="notes">
+<p>Andererseits ist es auch möglich, sich nur auf formale Sprachen und Systeme zu beschränken. Bleibe also besser möglichst abstrakt, ohne Bezug zu konkreten Umsetzungen. Die konkreten Anwendungsfälle wird dann jeder anders umsetzen. Es ist nämlich so, dass formale Sprachen alleine zwar exakt sind aber keinen Bezug zur Realität haben, da es sich um rein mathematische Konstrukte handelt.</p>
+</aside>
+</section>
+<section id="beschränke-dich-auf-eine-technik" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/XML.svg/527px-XML.svg.png" data-background-size="contain">
+<h1>Beschränke dich auf eine Technik!</h1>
+<aside class="notes">
+<p>Datenstandards können zusammen mit verschiedenen Programmiersprachen, Anwendungen und anderen Techniken eingesetzt werden. Pass daher auf, dass dein Standard nicht Sprach-unabhängig ist und wohlmöglich mit verschiedenen Techniken eingesetzt werden kann. Am besten der Standard bezieht sich nur auf einen ganz bestimmten technischen Kontext.</p>
+</aside>
+</section>
+<section id="ändere-nichts" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Rocks_blocking_a_road.jpg/1200px-Rocks_blocking_a_road.jpg" data-state="top">
+<h1>Ändere nichts!</h1>
+<aside class="notes">
+<p>Gute Standards stammen aus der Praxis. Die Praxis kann sich jedoch mit der Zeit ändern. Das sollte kein Grund sein, den Standard ebenfalls anzupassen. Also lassen sie ihre Standards auf Ewigkeit so wie sie sind!</p>
+</aside>
+</section>
+<section id="vermeide-versionierung" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ausgrabung_Harburger-Schlo%C3%9Fstra%C3%9Fe_Profil.jpg/1200px-Ausgrabung_Harburger-Schlo%C3%9Fstra%C3%9Fe_Profil.jpg">
+<h1>Vermeide Versionierung!</h1>
+<aside class="notes">
+<p>Falls sie etwas am Standard ändern, machen sie es so, dass nicht erkennbar ist, wann was geändert wurde und wie der Standard vor der Änderung aussah.</p>
+</aside>
+</section>
+<section id="validiere-nie" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Japanese_Three_Wise_Monkeys.JPG/1280px-Japanese_Three_Wise_Monkeys.JPG">
+<h1>Validiere nie!</h1>
+<aside class="notes">
+<p>Standards sind Abmachungen, sie können also eingehalten oder gebrochen werden. Am besten sie schauen gar nicht erst genau hin, ob sich überhaupt jemand an den Standard hält oder nur so tut.</p>
+</aside>
+</section>
+<section id="ignoriere-regelverstöße" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Massimo_Busacca%2C_Referee%2C_Switzerland_%2810%29.jpg/1280px-Massimo_Busacca%2C_Referee%2C_Switzerland_%2810%29.jpg">
+<h1>Ignoriere Regelverstöße!</h1>
+<aside class="notes">
+<p>Jeder Standard ist nur so gut wie er auch eingealten wird. Wenn Regelverstöße keine Konsequenzen nach sich ziehen (also zum Beispiel Fehlersuche, Rückmeldung, Ablehnung von Daten…) wird sich am Ende sowieso niemand mehr daran halten.</p>
+</aside>
+</section>
+<section id="ignoriere-soziale-aspekte" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/8/8f/This_was_a_timely_capture_%283926001309%29.jpg">
+<h1>Ignoriere soziale Aspekte!</h1>
+<aside class="notes">
+<p>Kein Standard ist frei von Interessen. Ein gutes Rezept zum Scheitern ist es daher so zu tun als seien Daten eine rein technische Angelegenheit ohne soziale Implikationen und Konflikte.</p>
+</aside>
+</section>
+<section id="bildlizenzen-13" class="slide level1">
+<h1>Bildlizenzen 1/3</h1>
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/File:Paul_Otlet_%C3%A0_son_bureau.jpg">Paul Otlet à son bureau</a>, PD</li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Eekiv">Eekiv</a>, <a href="https://commons.wikimedia.org/wiki/File:Art_Anarchy.jpg">Art Anarchy</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:DrOONeil">DrOONeil</a>, <a href="https://commons.wikimedia.org/wiki/File:FMRI_Brain_Scan.jpg">FMRI Brain Scan</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Soban">Soban</a>, <a href="https://commons.wikimedia.org/wiki/File:Locked_Door_of_Tajjar.jpg">Locked Door of Tajjar</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Wingchi">Wing-Chi Poon</a>, <a href="https://commons.wikimedia.org/wiki/File:Warning_-_Area_Closed_-_Dangerous_Cliffs.jpg">Warning - Area Closed - Dangerous Cliffs</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Samooer">Samooer</a>, <a href="https://commons.wikimedia.org/wiki/File:Broken_Wheel.jpg">Broken Wheel</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://en.wikipedia.org/wiki/User:Gurch">Gurch</a> at <a href="https://en.wikipedia.org/wiki/">English Wikipedia</a>, <a href="https://commons.wikimedia.org/wiki/File:Category-diagram.png">Category-diagram</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+</ul>
+</section>
+<section id="bildlizenzen-23" class="slide level1">
+<h1>Bildlizenzen 2/3</h1>
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/User:PdDemeter">PdDemeter</a>, <a href="https://commons.wikimedia.org/wiki/File:Blank-document.svg">Blank-document</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5/legalcode">CC BY-SA 2.5</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Messier_12_Hubble_WikiSky.jpg">Messier 12 Hubble WikiSky</a>, PD</li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Voynich_Manuscript_%28164%29.jpg">Voynich Manuscript (164)</a>, PD</li>
+<li><a href="http://www.flickr.com/people/cupdegrave/">Chris Updegrave</a>, <a href="https://commons.wikimedia.org/wiki/File:Salmonberry_River_and_POTB_line.jpg">Salmonberry River and POTB line</a>, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC BY 2.0</a></li>
+<li><a href="http://blog.fuzzynerd.com/">Lawrence Lansing</a>, <a href="https://commons.wikimedia.org/wiki/File:Princess_juliana_international_airport_approach.jpg">Princess juliana international airport approach</a>, <a href="https://creativecommons.org/licenses/by/3.0/legalcode">CC BY 3.0</a></li>
+<li><a href="/wiki/User_talk:Trapmoth">Trapmoth</a>, <a href="https://commons.wikimedia.org/wiki/File:Thompson-kleene-star.svg">Thompson-kleene-star</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Larry.jpg">Larry</a>, PD</li>
+</ul>
+</section>
+<section id="bildlizenzen-33" class="slide level1">
+<h1>Bildlizenzen 3/3</h1>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/User:Dreftymac">en:User:Dreftymac</a>, <a href="https://commons.wikimedia.org/wiki/File:XML.svg">XML</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5/legalcode">CC BY-SA 2.5</a></li>
+<li>אני יצרתי, <a href="https://commons.wikimedia.org/wiki/File:Rocks_blocking_a_road.jpg">Rocks blocking a road</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Bullenw%C3%A4chter">Bullenwächter</a>, <a href="https://commons.wikimedia.org/wiki/File:Ausgrabung_Harburger-Schloßstraße_Profil.jpg">Ausgrabung Harburger-Schloßstraße Profil</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Man_On_Mission">Man On Mission</a>, <a href="https://commons.wikimedia.org/wiki/File:Japanese_Three_Wise_Monkeys.JPG">Japanese Three Wise Monkeys</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/User:Steindy">Steindy</a>, <a href="https://commons.wikimedia.org/wiki/File:Massimo_Busacca,_Referee,_Switzerland_(10).jpg">Massimo Busacca, Referee, Switzerland (10)</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a></li>
+<li><a href="http://www.flickr.com/people/68877611@N00">Peretz Partensky</a> from San Francisco, USA, <a href="https://commons.wikimedia.org/wiki/File:This_was_a_timely_capture_(3926001309).jpg">This was a timely capture (3926001309)</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY-SA 2.0</a></li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
